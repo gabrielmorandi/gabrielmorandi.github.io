@@ -60,6 +60,7 @@ h1 {
     background-color: #56298F;
     border-radius: 5px;
     cursor: pointer;
+    position: relative;
 }
 
 .btn-primary {
@@ -76,6 +77,17 @@ h1 {
 
 .btn-secondary {
     background-color: white;
+}
+
+.btn-secondary::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    top: 0;
+    left: 0;
+    border-radius: 5px;
     border: 1px solid #56298F;
 }
 
