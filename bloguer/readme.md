@@ -1,4 +1,4 @@
-### eventTrip
+### bloguer
 
 ## This is a blog 
 
