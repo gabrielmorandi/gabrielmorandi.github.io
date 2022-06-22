@@ -1,4 +1,4 @@
-### eventTrip
+### diParis
 
 ## This is a website for an cosmetics company
 
