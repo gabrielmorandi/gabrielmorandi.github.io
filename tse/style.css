@@ -187,8 +187,11 @@ main {
     color: #5C0A98;
 }
 
-.materia figure img {
+.materia figure {
     overflow: hidden;
+}
+
+.materia figure img {
     width: 100%;
     transition: ease-in 0.3s;
 }
