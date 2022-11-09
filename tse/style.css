@@ -187,17 +187,9 @@ main {
     color: #5C0A98;
 }
 
-.materia figure {
-    overflow: hidden;
-}
 
 .materia figure img {
     width: 100%;
-    transition: ease-in 0.3s;
-}
-
-.materia figure:hover > img{
-    transform: scale(1.2);
 }
 
 .materia figure figcaption {
